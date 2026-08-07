@@ -1,0 +1,99 @@
+# 找到这一行
+language: zh-CN
+# 找到 favicon 配置，修改为：
+favicon: /img/tx.jpg
+nav:
+  # 导航栏菜单
+  menu:
+    - { key: "home", link: "/", icon: "fas fa-home" }
+    - { key: "archive", link: "/archives/", icon: "fas fa-archive" }
+    - { key: "category", link: "/categories/", icon: "fas fa-folder" }
+    - { key: "tag", link: "/tags/", icon: "fas fa-tags" }
+    - { key: "about", link: "/about/", icon: "fas fa-user" }  # 添加这一行！
+# ========================
+# 1. 全局配色 (Color)
+# ========================
+color:
+  # 主题色，可以改成你喜欢的颜色（支持十六进制或颜色名）
+  # 推荐：#007bff (科技蓝), #ff5722 (活力橙), #4caf50 (清新绿)
+  theme_color: "4caf50"
+  # 鼠标悬停时的颜色
+  theme_color_hover: "#009a5a"
+
+# ========================
+# 2. 首页大图 (Banner)
+# ========================
+# ========================
+# 3. 打字机效果 (Typewriter)
+# ========================
+index:
+  banner_img: /img/sdfz1.png
+  # 如果你想用自己的图片，可以把图片放到 source/img/ 目录下，然后写: /img/你的图片名.jpg
+  banner_img_height: 100      # 视差滚动高度，100 表示全屏
+  banner_mask_alpha: 0.3      # 图片上的黑色遮罩透明度 (0-1)，让文字更清晰
+  slogan:
+    enable: true
+    # 这里可以写多个句子，它们会像打字机一样轮流出现
+    text: 
+      - "欢迎来到Uranium的博客喵～"
+
+archive:
+  banner_img: /img/sdfz1.png  # 使用本地图片
+  banner_img_height: 50               # 高度设为 50，比首页的 100 矮一些
+  banner_mask_alpha: 0.3
+
+category:
+  banner_img: /img/sdfz1.png
+  banner_img_height: 50
+  banner_mask_alpha: 0.3
+
+tag:
+  banner_img: /img/sdfz1.png
+  banner_img_height: 50
+  banner_mask_alpha: 0.3
+
+post:
+  banner_img: /img/sdfz1.png  # 默认头图
+  banner_img_height: 70                        # 头图高度
+
+
+# ========================
+# 4. 导航栏 (Navbar)
+# ========================
+navbar:
+  blog_title: "Uranium的博客"  # 左上角的博客名称
+  ground_glass:
+    enable: true                # 开启导航栏毛玻璃效果（非常高级！）
+    px: 3                       # 模糊像素
+    alpha: 0.7                  # 透明度
+
+# ========================
+# 5. 页脚 (Footer)
+# ========================
+footer:
+  statistics:
+    enable: true                # 开启站点字数和访问时长统计
+  beian:
+    enable: false               # 如果没有国内服务器备案，保持 false
+
+# ========================
+# 关于页面配置
+# ========================
+about:
+  enable: true
+  banner_img: /img/sdfz1.png
+  banner_img_height: 50
+  banner_mask_alpha: 0.3
+  # 头像路径
+  avatar: "/img/tx.jpg"
+  # 名字
+  name: "Uranium"
+  # 名字下面的小字 (注意：Fluid 里这个字段叫 intro，不是 description！)
+  intro: "Uranium的博客"
+  
+  # 社交图标 (注意：Fluid 里这个字段叫 icons，不是 social！)
+  icons:
+    - { class: "fab fa-github", link: "https://github.com/Uranium-hnrmyfsx", tip: "GitHub" }
+    - { class: "fas fa-envelope", link: "mailto:Uranium_hnrmyfsx", tip: "邮箱" }
+    # 如果你想加微信，取消下面这行的注释，并放好二维码图片
+    - { class: "fab fa-weixin", qrcode: "/img/wechat.png", tip: "微信" }
