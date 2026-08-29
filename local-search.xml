@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>孩子们一定要记得注释掉测试用的cout啊啊啊</title>
+    <link href="/2026/08/30/remember-annotation%E2%80%8C-testing/"/>
+    <url>/2026/08/30/remember-annotation%E2%80%8C-testing/</url>
+    
+    <content type="html"><![CDATA[<h1 id="孩子们一定要记得注释掉测试用的cout啊啊啊"><a href="#孩子们一定要记得注释掉测试用的cout啊啊啊" class="headerlink" title="孩子们一定要记得注释掉测试用的cout啊啊啊"></a>孩子们一定要记得注释掉测试用的cout啊啊啊</h1><p><img src="/img/2/1.png" alt="阴阳两隔了啊啊啊"><br>我只是忘记注释掉测试用的cout了啊啊啊<br><strong>所以孩子们一定要记得注释掉测试用的cout啊啊啊！！！</strong></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>GESP</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>装装Debian Linux（未完成）</title>
+    <link href="/2026/08/28/how-to-install-debian-linux/"/>
+    <url>/2026/08/28/how-to-install-debian-linux/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这篇文章讲的很细，这可以算是一个优势吧。但是Linux最怕那些<code>照抄教程</code>、<code>不动脑子</code>、<code>不思考</code>的人。因此在阅读本文的过程中，如果有任何<code>不明白</code>&#x2F;<code>不理解</code>的地方，敬请询问你那条<code>吃白饭的蓝色大肥鱼</code>:)<br>同时笔者也很欢迎你直接询问他<del>尽管他懂的也不多</del><br>笔者的QQ号为258096504，加他记得备注是从这篇文章过来的，否则<code>一律不通过</code>。</p><h1 id="安装之前…"><a href="#安装之前…" class="headerlink" title="安装之前…"></a>安装之前…</h1><p>笔者假设你现在有一块空闲的固态（或是你已经决定不要上面的数据的固态）以及一个8gb+的U盘，当然还有两只手和一个脑子、一台配件齐全的电脑。</p><h2 id="下载光盘镜像"><a href="#下载光盘镜像" class="headerlink" title="下载光盘镜像"></a>下载光盘镜像</h2><p>不要问我为什么是<code>光盘</code>镜像。<br>首先笔者认为你现在有一台能用的电脑。<br>访问<a href="https://www.debian.org/">debian.org</a>。<br>接下来看图操作：<img src="/img/1/1.png" alt="⚠️注意一定选其他下载链接"><br>建议选择完整安装镜像1️⃣。如果你家网速支持，那么可以选择小型安装镜像2️⃣（网络安装）。<br>⚠️如果仅用于安装，一定不要选现场版安装镜像3️⃣！对于中国用户，这个镜像安装完的系统会有很多不必要的软件和功能（比如日文输入法，支持韩文的终端），而且有些卸载很麻烦！<br><img src="/img/1/2.png" alt="找找1️⃣2️⃣3️⃣"><br>有两种下载方式：一种是直链下载。<strong>这当然会很慢</strong>，<del>但是挂一会也不是下不了</del>：<br><img src="/img/1/3.png" alt="龟速爬行"><br>如果你有迅雷<a href="https://www.xunlei.com/">xunlei.com</a>，那第二种Torrent种子下载就很适合你。<br>先下载Torrent种子文件：<br><img src="/img/1/4.png" alt="Torrent种子"><br>然后把下载好的文件拖进迅雷：<br><img src="/img/1/5.png" alt="siu"><br>这样就十分快了。<br><img src="/img/1/6.png" alt="?!快快?!"></p><h2 id="把镜像写入U盘"><a href="#把镜像写入U盘" class="headerlink" title="把镜像写入U盘"></a>把镜像写入U盘</h2><p>笔者建议使用Fedora Media Writer。<br>官方Github release下载太慢力，笔者已经帮各位搬运到<a href="https://wwayy.lanzoue.com/b00ybczsmj">蓝奏云</a>了，<strong>密码:1234</strong></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+      <tag>Debian</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2026/08/16/hello-world/"/>
+    <url>/2026/08/16/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>NOI可真是太幽默了</title>
+    <link href="/2026/08/08/noi-humor/"/>
+    <url>/2026/08/08/noi-humor/</url>
+    
+    <content type="html"><![CDATA[<h1 id="2026-8-8"><a href="#2026-8-8" class="headerlink" title="2026&#x2F;8&#x2F;8"></a>2026&#x2F;8&#x2F;8</h1><ol start="68"><li>水喝完了，如何处理：-举手向监考人员再要一瓶</li><li>考试太简单，能提前离开吗? -能</li></ol><h1 id="摘自哪里？"><a href="#摘自哪里？" class="headerlink" title="摘自哪里？"></a>摘自哪里？</h1><p>NOI202026基础知识题库</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>NOI</tag>
+      
+      <tag>C++</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
