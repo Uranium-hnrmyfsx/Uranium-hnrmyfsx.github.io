@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 开始备份源码到 GitHub..."
+echo "开始备份源码到:GitHub"
 
 # 1. 添加所有修改
 git add .
