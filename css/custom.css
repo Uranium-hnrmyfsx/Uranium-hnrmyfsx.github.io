@@ -1,0 +1,45 @@
+/*
+红 #AB0B16
+绿 #009A5A
+黄 #E3BC1A
+黑 #000000
+*/
+
+/* =========================================
+   Fluid 主题色强制覆盖 (100% 生效版)
+   ========================================= */
+
+/* 1. 尝试覆盖全局变量 (部分版本有效) */
+:root {
+  --theme-color: #009a5a !important;
+}
+
+/* 2. 强制覆盖 Fluid 大量使用的核心主题类名 */
+.text-theme {
+  color: #009a5a !important;
+}
+.bg-theme {
+  background-color: #009a5a !important;
+}
+.border-theme {
+  border-color: #009a5a !important;
+}
+
+/* 3. 强制覆盖所有链接和按钮的悬停颜色 */
+a:hover, 
+.btn:hover, 
+.navbar .nav-link:hover {
+  color: #e3bc1a !important; /* 悬停色，建议比主色深一点 */
+}
+
+/* 4. 强制覆盖导航栏背景 (你之前测试成功过的部分) */
+.navbar {
+  background-color: #009a5a66 !important;
+}
+
+/* 5. 强制覆盖分页按钮、标签云等细节 */
+.pagination .page-item.active .page-link,
+.tag-cloud a {
+  background-color: #009a5a !important;
+  color: #fff !important;
+}
