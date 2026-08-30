@@ -13,12 +13,23 @@ nav:
 # ========================
 # 1. 全局配色 (Color)
 # ========================
-color:
-  # 主题色，可以改成你喜欢的颜色（支持十六进制或颜色名）
-  # 推荐：#007bff (科技蓝), #ff5722 (活力橙), #4caf50 (清新绿)
-  theme_color: "4caf50"
-  # 鼠标悬停时的颜色
-  theme_color_hover: "#009a5a"
+# ========================
+# 颜色配置 (基于 Fluid 源码)
+# ========================
+
+#color:
+  # 1. 链接悬停颜色 (这就是 Fluid 中最主要的“主题色”体现，源码: color.link_hover_color)
+  #
+  #link_hover_color: "#AB0B16"        # 默认是 #30a9de (蓝色)，这里改成了活力橙
+  
+  # 2. 导航栏背景色 (源码: color.navbar_bg_color)
+  #navbar_bg_color: "#AB0B16"         # 默认是深蓝色 #2f4154，你可以改成 "#000000" (纯黑) 或其他
+  
+  # 3. 板块/卡片背景色 (源码: color.board_color)
+  #board_color: "#AB0B16"             # 默认是白色 #ffffff
+  
+  # 4. 网页整体背景色 (源码: color.body_bg_color)
+  #body_bg_color: "#AB0B16"           # 默认是浅灰 #eee
 
 # ========================
 # 2. 首页大图 (Banner)
@@ -27,33 +38,33 @@ color:
 # 3. 打字机效果 (Typewriter)
 # ========================
 index:
-  banner_img: /img/sdfz1.png
+  banner_img: /img/banner.jpg
   # 如果你想用自己的图片，可以把图片放到 source/img/ 目录下，然后写: /img/你的图片名.jpg
   banner_img_height: 100      # 视差滚动高度，100 表示全屏
   banner_mask_alpha: 0.3      # 图片上的黑色遮罩透明度 (0-1)，让文字更清晰
   slogan:
     enable: true
     # 这里可以写多个句子，它们会像打字机一样轮流出现
-    text: 
+    text:
       - "SDFZ牛逼👍"
 
 archive:
-  banner_img: /img/sdfz1.png  # 使用本地图片
+  banner_img: /img/banner.jpg  # 使用本地图片
   banner_img_height: 50               # 高度设为 50，比首页的 100 矮一些
   banner_mask_alpha: 0.3
 
 category:
-  banner_img: /img/sdfz1.png
+  banner_img: /img/banner.jpg
   banner_img_height: 50
   banner_mask_alpha: 0.3
 
 tag:
-  banner_img: /img/sdfz1.png
+  banner_img: /img/banner.jpg
   banner_img_height: 50
   banner_mask_alpha: 0.3
 
 post:
-  banner_img: /img/sdfz1.png  # 默认头图
+  banner_img: /img/banner.jpg  # 默认头图
   banner_img_height: 70                        # 头图高度
 
 
@@ -90,10 +101,12 @@ about:
   name: "Uranium"
   # 名字下面的小字 (注意：Fluid 里这个字段叫 intro，不是 description！)
   intro: "Uranium的博客"
-  
+
   # 社交图标 (注意：Fluid 里这个字段叫 icons，不是 social！)
   icons:
     - { class: "fab fa-github", link: "https://github.com/Uranium-hnrmyfsx", tip: "GitHub" }
     - { class: "fas fa-envelope", link: "mailto:Uranium_hnrmyfsx", tip: "邮箱" }
     # 如果你想加微信，取消下面这行的注释，并放好二维码图片
     - { class: "fab fa-weixin", qrcode: "/img/wechat.png", tip: "微信" }
+
+custom_css: /css/custom.css
